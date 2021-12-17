@@ -38,7 +38,10 @@ An error displays no module named "controldiffeq."
 The code runs well.
 """
 
+!pip install torchcde
+
 import controldiffeq
+
 import math
 import torch
 
@@ -185,8 +188,6 @@ if __name__ == '__main__':
 
 Install and import the libraries.
 """
-
-!pip install torchcde
 
 import torch
 import torchcde
